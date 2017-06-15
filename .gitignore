@@ -1,0 +1,9 @@
+sqlite.db
+*.pyc
+*.swp
+upload/
+.idea
+.project
+.pydevproject
+sqlite.db
+staticfiles/
