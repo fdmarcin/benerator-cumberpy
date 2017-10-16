@@ -10,13 +10,13 @@ TODO:
     I made two lists – `first_names.txt` and `last_names.txt` based on certain conditions.
 
     First name (result: 16692 words):
-    [X] starts with "B" (copied words beginning with B to "first-names-all.txt")
-    [X] is at least 6 letters long (`egrep '^[a-z]{6,}$' first-names-all.txt >> first-names.txt`)
-    [X] is not Benedict
+    - [X] starts with "B" (copied words beginning with B to "first-names-all.txt")
+    - [X] is at least 6 letters long (`egrep '^[a-z]{6,}$' first-names-all.txt >> first-names.txt`)
+    - [X] is not Benedict
 
     Last name (result: 33504 words):
-    [X] starts with "C" or "K" (copied words beginning with C or K to "first-names-all.txt")
-    [X] is at least 6 letters long (`egrep '^[a-z]{6,}$' last-names-all.txt >> last-names.txt`)
-    [X] is not Cumberbatch
+    - [X] starts with "C" or "K" (copied words beginning with C or K to "first-names-all.txt")
+    - [X] is at least 6 letters long (`egrep '^[a-z]{6,}$' last-names-all.txt >> last-names.txt`)
+    - [X] is not Cumberbatch
 2. [ ] Write the program itself.
 3. [ ] Think of implementation. GUI? Webapp?
