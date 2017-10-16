@@ -4,7 +4,19 @@ Benerator Cumberpy is a name generator written in Python, that generates word pa
 
 Benerator Cumberpy will create pairs of existing English words that fullfil certain criteria. Examples could include "Benefits Coordination" or "Benevolent Cucumber".
 
+
 TODO:
-- [ ] Find a list of English words to use. For example [this one](https://github.com/dwyl/english-words). Use python or linux CLI tools to select words I want.
-- [ ] Write the program itself.
-- [ ] Think of implementation. GUI? Webapp?
+1. [X] Find a list of English words to use. For example [this one](https://github.com/dwyl/english-words). Use python or linux CLI tools to select words I want.
+    I made two lists – `first_names.txt` and `last_names.txt` based on certain conditions.
+
+    First name (result: 16692 words):
+    [X] starts with "B" (copied words beginning with B to "first-names-all.txt")
+    [X] is at least 6 letters long (`egrep '^[a-z]{6,}$' first-names-all.txt >> first-names.txt`)
+    [X] is not Benedict
+
+    Last name (result: 33504 words):
+    [X] starts with "C" or "K" (copied words beginning with C or K to "first-names-all.txt")
+    [X] is at least 6 letters long (`egrep '^[a-z]{6,}$' last-names-all.txt >> last-names.txt`)
+    [X] is not Cumberbatch
+2. [ ] Write the program itself.
+3. [ ] Think of implementation. GUI? Webapp?
