@@ -18,5 +18,6 @@ TODO:
     - [X] starts with "C" or "K" (copied words beginning with C or K to "first-names-all.txt")
     - [X] is at least 6 letters long (`egrep '^[a-z]{6,}$' last-names-all.txt >> last-names.txt`)
     - [X] is not Cumberbatch
-2. [ ] Write the program itself.
-3. [ ] Think of implementation. GUI? Webapp?
+2. [X] Write the program itself.
+3. [ ] Figure out how to print the name capitalized
+4. [ ] Think of implementation. GUI? Webapp?
