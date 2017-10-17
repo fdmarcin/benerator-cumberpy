@@ -6,9 +6,36 @@ Benerator Cumberpy will create pairs of existing English words that fullfil cert
 
 ### Running Benerator Cumberpy
 
+0. Have python installed.
 1. Clone the repo or download as zip.
 2. `cd` into the folder.
 3. Run `python benerator-cumber.py`
+
+For added hilarity, pipe the output of benerator-cumber.py through `cowsay` ([cowsay for windows](https://github.com/kanej/Posh-Cowsay), Linux – `apt install cowsay` or whatever else your distro uses).
+
+Example:
+
+```
+$ python benerator-cumber.py | cowsay -f stegosaurus
+ ____________________________________
+/ Hello there, my name is Beetleweed \
+\ Correctioner.                      /
+ ------------------------------------
+\                             .       .
+ \                           / `.   .' " 
+  \                  .---.  <    > <    >  .---.
+   \                 |    \  \ - ~ ~ - /  /    |
+         _____          ..-~             ~-..-~
+        |     |   \~~~\.'                    `./~~~/
+       ---------   \__/                        \__/
+      .'  O    \     /               /       \  " 
+     (_____,    `._.'               |         }  \/~~~/
+      `----.          /       }     |        /    \__/
+            `-.      |       /      |       /      `. ,~~|
+                ~-.__|      /_ - ~ ^|      /- _      `..-'   
+                     |     /        |     /     ~-.     `-. _  _  _
+                     |_____|        |_____|         ~ - . _ _ _ _ _>
+```
 
 ### What I did
 
@@ -27,4 +54,5 @@ Benerator Cumberpy will create pairs of existing English words that fullfil cert
     - is not Cumberbatch, though it wasn't in the dataset anyway
 2. I wrote the program itself.
 3. I figured out how to print the name capitalized
-4. TO DO: Think of implementation. GUI? Webapp?
+
+TO DO: Figure out how to put it on a website for people who don't use the command line. Maybe github.io + [Brython](http://www.brython.info/)?.
