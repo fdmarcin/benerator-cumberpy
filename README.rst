@@ -43,7 +43,7 @@ Example:
                        |     /        |     /     ~-.     `-. _  _  _		
                        |_____|        |_____|         ~ - . _ _ _ _ _>	
 
-You can also use Benerator Cumberpy in your python script. The ``__main__`` function will return only the name+surname pair.
+You can also use Benerator Cumberpy in your python script (needs testing). The ``__main__`` function will return only the name+surname pair.
 
 For example:
 
