@@ -15,11 +15,50 @@ Install and run Benerator Cumberpy
 0. Install Python, and create a virtualenv.
 1. Clone or download this repo.
 2. ``cd`` into the project folder and install with ``pip install -e .`` (note the full stop at the end). If you're using a virtualenv, you may need to deactivate and activate it before running the program for the first time.
-3. In your terminal, run ``hello-ben``. Your console will print a sentence like "Hello there, my name is Beetleweed Correctioner".
+3. In your terminal, run ``hello-ben``. Your console will print a sentence like "Hello there, my name is Bronzelike Certificate.".
 
-.. TO DO: Add info about importing and using in scripts
+For added hilarity, pipe the output of **ben-hello** through ``cowsay`` (`cowsay for windows <https://github.com/kanej/Posh-Cowsay/>`_, Linux – ``apt install cowsay`` or whatever else your distro uses).
 
-For added hilarity, pipe the output of **ben-hello** through ``cowsay`` (`cowsay for windows <https://github.com/kanej/Posh-Cowsay/>`_, Linux – ``apt install cowsay`` or whatever else your distro uses). Make sure to check the alternative "cows" – try running ``hello-ben | cowsay -f stegosaurus``.
+Example:
+
+.. code-block::
+
+  $ hello-ben | cowsay -f stegosaurus		
+   ____________________________________		
+  / Hello there, my name is Beetleweed \		
+  \ Correctioner.                      /		
+   ------------------------------------		
+  \                             .       .		
+   \                           / `.   .' " 		
+    \                  .---.  <    > <    >  .---.		
+     \                 |    \  \ - ~ ~ - /  /    |		
+           _____          ..-~             ~-..-~		
+          |     |   \~~~\.'                    `./~~~/		
+         ---------   \__/                        \__/		
+        .'  O    \     /               /       \  " 		
+       (_____,    `._.'               |         }  \/~~~/		
+        `----.          /       }     |        /    \__/		
+              `-.      |       /      |       /      `. ,~~|		
+                  ~-.__|      /_ - ~ ^|      /- _      `..-'   		
+                       |     /        |     /     ~-.     `-. _  _  _		
+                       |_____|        |_____|         ~ - . _ _ _ _ _>	
+
+You can also use Benerator Cumberpy in your python script. The ``__main__`` function will return only the name+surname pair.
+
+For example:
+
+.. code-block:: python
+
+  # your_script.py
+  from benerator-cumberpy import __main__ as ben
+ 
+  print("You know who you can always count on? " + ben + "!")
+
+.. code-block::
+
+  $ python your_script.py
+  You know who you can always count on? Bestselling Corridors!
+
 
 ****************************
 How Benerator Cumberpy works
