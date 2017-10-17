@@ -1,4 +1,4 @@
-# Written for python 3.5.3
+# Written for python 3.5
 
 import random
 
