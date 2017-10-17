@@ -7,3 +7,4 @@ upload/
 .pydevproject
 sqlite.db
 staticfiles/
+*.egg-info
