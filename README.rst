@@ -60,9 +60,9 @@ For example:
   You know who you can always count on? Bestselling Corridors!
 
 
-****************************
-How Benerator Cumberpy works
-****************************
+*****************************
+Where do the words come from?
+*****************************
 
 I found a list of English words to use. I used `this one <https://github.com/dwyl/english-words>`_. Then I made two lists – ``first_names.txt`` and ``last_names.txt`` based on the following criteria:
 
