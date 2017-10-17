@@ -17,7 +17,7 @@ Install and run Benerator Cumberpy
 2. ``cd`` into the project folder and install with ``pip install -e .`` (note the full stop at the end). If you're using a virtualenv, you may need to deactivate and activate it before running the program for the first time.
 3. In your terminal, run ``hello-ben``. Your console will print a sentence like "Hello there, my name is Bronzelike Certificate.".
 
-For added hilarity, pipe the output of **ben-hello** through ``cowsay`` (`cowsay for windows <https://github.com/kanej/Posh-Cowsay/>`_, Linux – ``apt install cowsay`` or whatever else your distro uses).
+For added hilarity, pipe the output of **hello-ben** through ``cowsay`` (`cowsay for windows <https://github.com/kanej/Posh-Cowsay/>`_, Linux – ``apt install cowsay`` or whatever else your distro uses).
 
 Example:
 
