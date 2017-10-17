@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
+
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the README file
@@ -26,7 +27,7 @@ setup(name='benerator-cumberpy',
           'Topic :: Games/Entertainment',
 
           'License :: OSI Approved :: MIT License',
-  
+
           # Specify the Python versions you support here. In particular, ensure
           # that you indicate whether you support Python 2, Python 3 or both.
           'Programming Language :: Python :: 2',
@@ -38,7 +39,7 @@ setup(name='benerator-cumberpy',
       ],
 
       keywords='benedict cumberbatch word generator',
-      packages = find_packages(),
+      packages=find_packages(),
       entry_points={
           'console_scripts': [
               'hello-ben = benerator:hello'
