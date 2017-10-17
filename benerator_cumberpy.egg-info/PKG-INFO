@@ -1,0 +1,59 @@
+Metadata-Version: 1.1
+Name: benerator-cumberpy
+Version: 0.1.0
+Summary: A Ben Cumberbatch-like name generator
+Home-page: https://github.com/fdmarcin/benerator-cumberpy
+Author: Marcin Sędłak-Jakubowski
+Author-email: fdmarcin@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: ==================
+        Benerator Cumberpy
+        ==================
+        
+        Benerator Cumberpy is a name generator written in Python, that generates word pairs similar to "Benedict Cumberbatch". There already exist generators like this. However, they create new words, such as "Boobiedook Cumberfinkle".
+        
+        Benerator Cumberpy will create pairs of existing English words that fullfil certain criteria. Examples could include "Benefits Coordination" or "Benevolent Cucumber". There are over 480 million possible combinations.
+        
+        The script works both in Python 2 and 3.
+        
+        **************************
+        Running Benerator Cumberpy
+        **************************
+        
+        In your terminal, run ``hello-ben``. Your console will print a sentence like "Hello there, my name is Beetleweed Correctioner".
+        
+        .. Add info about importing and using in scripts
+        
+        For added hilarity, pipe the output of **ben-hello** through ``cowsay`` (`cowsay for windows <https://github.com/kanej/Posh-Cowsay/>`_, Linux – ``apt install cowsay`` or whatever else your distro uses).
+        
+        ****************************
+        How Benerator Cumberpy works
+        ****************************
+        
+        I found a list of English words to use. I used `this one <https://github.com/dwyl/english-words>`_. Then I made two lists – ``first_names.txt`` and ``last_names.txt`` based on the following criteria:
+        
+        First name (end result: 16692 words):
+        * starts with "B"
+        * is at least 6 letters long
+        * is not Benedict
+        
+        Last name (end result: 28786 words):
+        * starts with "C" or "K"
+        * is at least 6 letters long
+        * does not start with "ch"
+        * is not Cumberbatch, though it wasn't in the dataset anyway
+        
+Keywords: benedict cumberbatch word generator
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Games/Entertainment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
