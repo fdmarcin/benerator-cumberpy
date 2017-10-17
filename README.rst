@@ -14,7 +14,7 @@ Install and run Benerator Cumberpy
 
 0. Install Python, and create a virtualenv.
 1. Clone or download this repo.
-2. ``cd`` into the project folder and install with ``pip install -e .`` (note the full stop at the end). If you're using a virtualenv, you may need to deactivate and activate it before the first use.
+2. ``cd`` into the project folder and install with ``pip install -e .`` (note the full stop at the end). If you're using a virtualenv, you may need to deactivate and activate it before running the program for the first time.
 3. In your terminal, run ``hello-ben``. Your console will print a sentence like "Hello there, my name is Beetleweed Correctioner".
 
 .. TO DO: Add info about importing and using in scripts
