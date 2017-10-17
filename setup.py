@@ -17,8 +17,6 @@ setup(name='benerator-cumberpy',
       author='Marcin Sędłak-Jakubowski',
       author_email='fdmarcin@gmail.com',
       license='MIT',
-
-    # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
           'Development Status :: 3 - Alpha',
           'Environment :: Console',
@@ -40,8 +38,7 @@ setup(name='benerator-cumberpy',
       ],
 
       keywords='benedict cumberbatch word generator',
-
-#      packages=['benerator_cumberpy'],
+      packages = find_packages(),
       entry_points={
           'console_scripts': [
               'hello-ben = benerator:hello'
