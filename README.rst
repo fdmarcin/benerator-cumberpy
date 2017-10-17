@@ -67,11 +67,13 @@ How Benerator Cumberpy works
 I found a list of English words to use. I used `this one <https://github.com/dwyl/english-words>`_. Then I made two lists – ``first_names.txt`` and ``last_names.txt`` based on the following criteria:
 
 First name (end result: 16692 words):
+
 * starts with "B"
 * is at least 6 letters long
 * is not Benedict
 
 Last name (end result: 28786 words):
+
 * starts with "C" or "K"
 * is at least 6 letters long
 * does not start with "ch"
