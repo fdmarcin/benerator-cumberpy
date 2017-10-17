@@ -1,5 +1,5 @@
-# template from http://go.chriswarrick.com/entry_points
 import random
+
 
 def main():
 
@@ -18,6 +18,7 @@ def main():
         endname += random.choice(data).capitalize()
 
     return endname
+
 
 def hello():
 
