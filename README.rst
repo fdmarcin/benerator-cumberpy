@@ -50,8 +50,8 @@ For example:
 .. code-block:: python
 
   # your_script.py
-  from benerator import hello
-  from benerator import benerate_name
+  from benerator_cumberpy import hello
+  from benerator_cumberpy import benerate_name
  
   print("You know who you can always count on? " + str(benerate_name()) + "!")
   hello()
