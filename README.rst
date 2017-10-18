@@ -58,9 +58,9 @@ For example:
 
 .. code-block::
 
-  In : $ python your_script.py
-  Out: You know who you can always count on? Bestselling Corridors!
-       Hello there, my name is Belial Cobalt.
+  $ python your_script.py
+  You know who you can always count on? Bestselling Corridors!
+  Hello there, my name is Belial Cobalt.
 
 
 *****************************
