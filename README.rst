@@ -23,48 +23,51 @@ Example:
 
 .. code-block::
 
-  $ hello-ben | cowsay -f stegosaurus		
-   ____________________________________		
-  / Hello there, my name is Beetleweed \		
-  \ Correctioner.                      /		
-   ------------------------------------		
-  \                             .       .		
-   \                           / `.   .' " 		
-    \                  .---.  <    > <    >  .---.		
-     \                 |    \  \ - ~ ~ - /  /    |		
-           _____          ..-~             ~-..-~		
-          |     |   \~~~\.'                    `./~~~/		
-         ---------   \__/                        \__/		
-        .'  O    \     /               /       \  " 		
-       (_____,    `._.'               |         }  \/~~~/		
-        `----.          /       }     |        /    \__/		
-              `-.      |       /      |       /      `. ,~~|		
-                  ~-.__|      /_ - ~ ^|      /- _      `..-'   		
-                       |     /        |     /     ~-.     `-. _  _  _		
-                       |_____|        |_____|         ~ - . _ _ _ _ _>	
+  $ hello-ben | cowsay -f stegosaurus
+   ____________________________________
+  / Hello there, my name is Beetleweed \
+  \ Correctioner.                      /
+   ------------------------------------
+  \                             .       .
+   \                           / `.   .' " 
+    \                  .---.  <    > <    >  .---.
+     \                 |    \  \ - ~ ~ - /  /    |
+           _____          ..-~             ~-..-~
+          |     |   \~~~\.'                    `./~~~/
+         ---------   \__/                        \__/
+        .'  O    \     /               /       \  " 
+       (_____,    `._.'               |         }  \/~~~/
+        `----.          /       }     |        /    \__/
+              `-.      |       /      |       /      `. ,~~|
+                  ~-.__|      /_ - ~ ^|      /- _      `..-'   
+                       |     /        |     /     ~-.     `-. _  _  _
+                       |_____|        |_____|         ~ - . _ _ _ _ _>
 
-You can also use Benerator Cumberpy in your python script (needs testing). The ``__main__`` function will return only the name+surname pair.
+You can also use Benerator Cumberpy in your python script. The ``__main__`` function will return only the name+surname pair.
 
 For example:
 
 .. code-block:: python
 
   # your_script.py
-  from benerator-cumberpy import __main__ as ben
+  from benerator import hello
+  from benerator import main as ben
  
-  print("You know who you can always count on? " + ben + "!")
+  print("You know who you can always count on? " + str(ben()) + "!")
+  hello()
 
 .. code-block::
 
-  $ python your_script.py
-  You know who you can always count on? Bestselling Corridors!
+  In : $ python your_script.py
+  Out: You know who you can always count on? Bestselling Corridors!
+       Hello there, my name is Belial Cobalt.
 
 
 *****************************
 Where do the words come from?
 *****************************
 
-I found a list of English words to use. I used `this one <https://github.com/dwyl/english-words>`_. Then I made two lists – ``first_names.txt`` and ``last_names.txt`` based on the following criteria:
+I found a list of English words to use – `this one <https://github.com/dwyl/english-words>`_. Then I made two lists – ``first_names.txt`` and ``last_names.txt`` based on the following criteria:
 
 First name (end result: 16692 words):
 
