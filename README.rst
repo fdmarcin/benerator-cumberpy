@@ -16,7 +16,7 @@ Make sure you have Python installed, and (optionally) create a virtualenv.
 
 To install Benerator Cumberpy run ``pip install benedict_cumberpy``
 
-To run the Benedict Cumberpy open up your terminal and run ``hello-ben``. Your console will print a sentence like "Hello there, my name is Bronzelike Certificate.".
+To run Benedict Cumberpy open up your terminal and run ``hello-ben``. Your console will print a sentence like "Hello there, my name is Bronzelike Certificate.".
 
 For added hilarity, pipe the output of **hello-ben** through ``cowsay`` ( Win: `cowsay for windows <https://github.com/kanej/Posh-Cowsay/>`_, Linux: ``apt install cowsay`` or whatever else your distro uses, OSX: if you have HomeBrew installed – ``brew install cowsay``).
 
