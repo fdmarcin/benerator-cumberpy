@@ -1,7 +1,7 @@
 import random
 
 
-def main():
+def benerate_name():
 
     endname = ""
 
@@ -22,7 +22,7 @@ def main():
 
 def hello():
 
-    print("Hello there, my name is " + main() + ".")
+    print("Hello there, my name is " + benerate_name() + ".")
 
 if __name__ == "__main__":
-    main()
+    benerate_name()

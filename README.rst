@@ -51,9 +51,9 @@ For example:
 
   # your_script.py
   from benerator import hello
-  from benerator import main as ben
+  from benerator import benerate_name
  
-  print("You know who you can always count on? " + str(ben()) + "!")
+  print("You know who you can always count on? " + str(benerate_name()) + "!")
   hello()
 
 .. code-block::
