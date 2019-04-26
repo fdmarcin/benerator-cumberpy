@@ -48,4 +48,5 @@ setup(name='benerator_cumberpy',
               'hello-ben = benerator_cumberpy:hello'
           ]
       },
+      package_data={'benerator_cumberpy': ['data/*']},
       )
