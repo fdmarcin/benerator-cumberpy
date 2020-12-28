@@ -11,11 +11,11 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name='benerator_cumberpy',
-      version='0.1.6',
+      version='0.1.7',
       description='A Ben Cumberbatch-like name generator',
       long_description=long_description,
       url='https://github.com/fdmarcin/benerator-cumberpy',
-      download_url='https://github.com/fdmarcin/benerator-cumberpy/archive/0.1.5.tar.gz',
+      download_url='https://github.com/fdmarcin/benerator-cumberpy/archive/0.1.7.tar.gz',
       author='Marcin Sędłak-Jakubowski',
       author_email='fdmarcin@gmail.com',
       license='MIT',
@@ -39,6 +39,7 @@ setup(name='benerator_cumberpy',
           'Programming Language :: Python :: 3.5',
           'Programming Language :: Python :: 3.6',
           'Programming Language :: Python :: 3.7',
+          'Programming Language :: Python :: 3.8',
       ],
 
       keywords='benedict cumberbatch word generator',
