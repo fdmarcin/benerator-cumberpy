@@ -14,11 +14,16 @@ Install and run Benerator Cumberpy
 
 Make sure you have Python installed, and (optionally) create a virtualenv.
 
-To install Benerator Cumberpy run ``pip install benedict_cumberpy``
+To install Benerator Cumberpy, run ``pip install benedict_cumberpy``
 
-To run Benedict Cumberpy open up your terminal and run ``hello-ben``. Your console will print a sentence like "Hello there, my name is Bronzelike Certificate.".
+To run Benedict Cumberpy in terminal, run:
 
-For added hilarity, pipe the output of **hello-ben** through ``cowsay`` ( Win: `cowsay for windows <https://github.com/kanej/Posh-Cowsay/>`_, Linux: ``apt install cowsay`` or whatever else your distro uses, OSX: if you have HomeBrew installed – ``brew install cowsay``).
+| Command | Description |
+| ------- | ----------- |
+| `benerate`  | Print only a name-surname pair. |
+| `hello-ben` | Print a sentence like "Hello there, my name is Bronzelike Certificate.". |
+
+For added hilarity, pipe the output of **hello-ben** through ``cowsay`` (Win: `cowsay for Windows <https://github.com/kanej/Posh-Cowsay/>`_, Linux: ``apt install cowsay`` or whatever else your distro uses, OSX: if you have HomeBrew installed – ``brew install cowsay``).
 
 Example:
 
@@ -30,37 +35,38 @@ Example:
   \ Correctioner.                      /
    ------------------------------------
   \                             .       .
-   \                           / `.   .' " 
+   \                           / `.   .' "
     \                  .---.  <    > <    >  .---.
      \                 |    \  \ - ~ ~ - /  /    |
            _____          ..-~             ~-..-~
           |     |   \~~~\.'                    `./~~~/
          ---------   \__/                        \__/
-        .'  O    \     /               /       \  " 
+        .'  O    \     /               /       \  "
        (_____,    `._.'               |         }  \/~~~/
         `----.          /       }     |        /    \__/
               `-.      |       /      |       /      `. ,~~|
-                  ~-.__|      /_ - ~ ^|      /- _      `..-'   
+                  ~-.__|      /_ - ~ ^|      /- _      `..-'
                        |     /        |     /     ~-.     `-. _  _  _
                        |_____|        |_____|         ~ - . _ _ _ _ _>
 
-You can also use Benerator Cumberpy in your python script. The ``benerate_name`` function will return only the name+surname pair.
+You can also use Benerator Cumberpy in your Python script.
 
 For example:
 
 .. code-block:: python
 
   # your_script.py
-  from benerator_cumberpy import hello
   from benerator_cumberpy import benerate_name
- 
-  print("You know who you can always count on? " + str(benerate_name()) + "!")
+  from benerator_cumberpy import hello
+
+  benerate_name()
   hello()
 
 .. code-block::
 
   $ python your_script.py
-  You know who you can always count on? Bestselling Corridors!
+
+  Bestselling Corridors
   Hello there, my name is Belial Cobalt.
 
 
@@ -68,7 +74,8 @@ For example:
 Where do the words come from?
 *****************************
 
-I found a list of English words to use – `this one <https://github.com/dwyl/english-words>`_. Then I made two lists – ``first_names.txt`` and ``last_names.txt`` based on the following criteria:
+I found a list of English words to use – `this one <https://github.com/dwyl/english-words>`_.
+Then I made two lists – ``first_names.txt`` and ``last_names.txt`` based on the following criteria:
 
 First name (end result: 16692 words):
 
