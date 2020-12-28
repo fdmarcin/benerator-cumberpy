@@ -20,12 +20,17 @@ To install Benerator Cumberpy, run ``pip install benedict_cumberpy``
 
 To run Benedict Cumberpy in terminal, run:
 
-| Command | Description |
-| ------- | ----------- |
-| `benerate`  | Print only a name-surname pair. |
-| `hello-ben` | Print a sentence like "Hello there, my name is Bronzelike Certificate.". |
+.. list-table:: Available commands
+    :header-rows: 1
 
-For added hilarity, pipe the output of **hello-ben** through ``cowsay`` (Win: `cowsay for Windows <https://github.com/kanej/Posh-Cowsay/>`_, Linux: ``apt install cowsay`` or whatever else your distro uses, OSX: if you have HomeBrew installed – ``brew install cowsay``).
+    * - Command
+      - Description
+    * - ``benerate``
+      - Print only a name-surname pair.
+    * - ``hello-ben``
+      - Print a sentence like "Hello there, my name is Bronzelike Certificate.".
+
+For added hilarity, pipe the output of ``hello-ben`` through ``cowsay`` (Win: `cowsay for Windows <https://github.com/kanej/Posh-Cowsay/>`_, Linux: ``apt install cowsay`` or whatever else your distro uses, OSX: if you have HomeBrew installed – ``brew install cowsay``).
 
 Example:
 
