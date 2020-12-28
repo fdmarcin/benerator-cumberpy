@@ -14,7 +14,7 @@ Install and run Benerator Cumberpy
 
 Make sure you have Python installed, and (optionally) create a virtualenv.
 
-To install Benerator Cumberpy, run ``pip install benedict_cumberpy``
+To install Benerator Cumberpy, run ``pip install benerator-cumberpy``
 
 To run Benedict Cumberpy in terminal, run:
 
