@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 # To use a consistent encoding
 from codecs import open
@@ -43,5 +43,8 @@ setup(
             "benerate = benerator_cumberpy:benerate_name",
         ]
     },
-    package_data={"benerator_cumberpy": ["data/*"]},
+    include_package_data=True,
+    packages=find_packages("src"),  # include all packages under src
+    package_dir={"": "src"},
+    package_data={"": ["data/*.txt"],},
 )
