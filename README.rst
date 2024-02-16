@@ -8,13 +8,19 @@ Benerator Cumberpy will create pairs of existing English words that fullfil cert
 
 The script works both in Python 2 and 3.
 
-**********************************
-Install and run Benerator Cumberpy
-**********************************
+************
+Installation
+************
 
 Make sure you have Python installed, and (optionally) create a virtualenv.
 
-To install Benerator Cumberpy, run ``pip install benerator-cumberpy``
+To install from PyPI, run ``pip install benerator-cumberpy``.
+
+To install locally: clone this repo, open the directory in terminal, and run ``pip install -e .``
+
+*****
+Usage
+*****
 
 To run Benedict Cumberpy in terminal, run:
 
